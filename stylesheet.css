@@ -1,7 +1,25 @@
 * {
     padding: 0;
-    
+    margin: 0;
 }
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
 
 @font-face {
     font-family:'Gotham-Light';
@@ -20,6 +38,8 @@
     src: url("fonts/Gotham-Black.otf");
 }
 
+
+
 #titleName {
     font-family: 'Gotham-Medium';
 }
@@ -37,11 +57,17 @@
     background-color: #F5F5F5;
 }
 
+.container-about {
+    height: 100%;
+   
+}
+
 .photo-insert {
     width: 200px;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 70px;
 }
 .headshot {
     max-width: 100%;
@@ -53,7 +79,8 @@
 }
 
 .container-edu-exp {
-    height: 670px;
+    height: 100%;
+    margin-bottom: 100px;
 }
 
 .edu-exp-header {
@@ -94,4 +121,68 @@
 
 .edu-exp-text {
     font-family: "Gotham-Light";
+}
+
+.card {
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+    height: 12rem;
+    margin-bottom: 70px;
+}
+
+
+.card-text {
+    font-family: "Gotham-Book";
+    color: black;
+}
+
+.card-text:hover {
+    color: #ade6d8;
+}
+
+#projectsSubhead {
+    font-family: "Gotham-Medium";
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-projects {
+    height: 120%;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+
+/* MEDIA BREAKPOINTS */
+
+/* Extra small devices */
+@media (max-width: 575.98px) { 
+
+
+}
+
+/*  Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
 }

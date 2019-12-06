@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family:'Gotham-Light';
+    src: url("fonts/Gotham-Light.otf");
+}
+@font-face {
+    font-family:'Gotham-Book';
+    src: url("fonts/Gotham-Book.otf");
+}
+@font-face {
+    font-family:'Gotham-Medium';
+    src: url("fonts/Gotham-Medium.otf");
+}
+@font-face {
+    font-family:'Gotham-Black';
+    src: url("fonts/Gotham-Black.otf");
+}
+
+#titleName {
+    font-family: 'Gotham-Medium';
+}
+
+#titleSubhead {
+    font-family: 'Gotham-Book';
+}
+
+.jumbotron {
+    background-color: white;
+    text-align: center;
+}
+
+.background-grey {
+    background-color: #F5F5F5;
+}
+
+.photo-insert {
+    width: 200px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.headshot {
+    max-width: 100%;
+  
+}
+
+.about-text {
+    margin-top: 50px;
+}
+
+.container-edu-exp {
+    height: 670px;
+}
+
+.edu-exp-header {
+    text-align: center;
+}
+
+#eduExpSubhead {
+    font-family: "Gotham-Medium";
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.edu-exp-box {
+    width: 350px;
+    height: 100px;
+    background-color: #F5F5F5;
+    display: inline-block;
+    margin-bottom: 20px;
+    box-shadow: 7px 7px black;
+    text-align: center;
+}
+
+#educationHead {
+    display: inline-block;
+    font-family: "Gotham-Book";
+    font-size: 1rem;
+}
+
+#experienceHead {
+    display: inline-block;
+    font-family: "Gotham-Book";
+    font-size: 1rem;
+}
+
+.edu-exp-text-head {
+    font-family: "Gotham-Book";
+}
+
+.edu-exp-text {
+    font-family: "Gotham-Light";
+}
